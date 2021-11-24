@@ -1,0 +1,55 @@
+.card-container{
+  max-width: 50vw;
+  margin: auto;
+  margin-top: 50vh;
+  transform: translate(0,-50%);
+}
+
+.homePage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* max-width: 50vw; */
+}
+
+.loginPage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  box-shadow: 0px 0px 30px -15px black;
+  background-color: rgb(152, 221, 152);
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card{
+  text-align: center;
+}
+
+.container-grid{
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  gap: 20px;
+}
+
+.container-grid .form{
+  grid-column: 1/2;
+  grid-row: 1/2;
+  min-width: 400px;
+
+}
+.container-grid .table{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  min-width: 400px;
+
+}
